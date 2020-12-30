@@ -7,5 +7,5 @@
  * in the user manual at https://docs.gradle.org/6.7.1/userguide/multi_project_builds.html
  */
 
-rootProject.name = "gas-tycoon"
+rootProject.name = "gas-tycoon-java"
 include("gas-tycoon-game-engine")
