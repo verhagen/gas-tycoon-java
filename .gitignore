@@ -1,0 +1,25 @@
+# Generic
+tmp/
+
+# Ignore Gradle project-specific cache directory
+.gradle/
+
+# Ignore Gradle build output directory
+build/
+bin/
+
+# Maven Configuration
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.next
+release.properties
+
+# Eclipse Configuration
+.settings/
+.classpath
+.project
+
+# IntelliJ Configuration
+.idea/
+*.iml
