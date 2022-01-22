@@ -1,0 +1,19 @@
+= Gas Tycoon - Java
+
+image::src/documentation/images/gas-tycoon-192x256.png[]
+
+
+== Background
+
+A clone of the iPhone / iPad  App https://itunes.apple.com/us/app/gas-tycoon-2/id335957000?mt=8[Gas Tycoon], implemented in Java.
+
+
+== Action List
+
+- [ ] Implement GUI
+- [x] Implement game engine
+
+== Ideas
+
+- https://depositphotos.com/serie/135026286.html?qview=427722918[Winter lanscape design]
+- Make an isometric projection version
