@@ -1,4 +1,4 @@
-package com.github.dojogreenfoot.gastyoon.maze;
+package com.github.verhagen.gastyoon.engine;
 
 public class ActorPosition<A> {
 	private final int x;

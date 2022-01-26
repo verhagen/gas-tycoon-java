@@ -1,4 +1,4 @@
-package com.github.dojogreenfoot.gastyoon.maze;
+package com.github.verhagen.gastyoon.engine;
 
 import java.util.HashSet;
 import java.util.Set;

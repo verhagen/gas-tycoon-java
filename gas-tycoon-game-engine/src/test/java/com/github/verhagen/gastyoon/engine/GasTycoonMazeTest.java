@@ -1,4 +1,4 @@
-package com.github.dojogreenfoot.gastyoon.maze;
+package com.github.verhagen.gastyoon.engine;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.github.dojogreenfoot.gastyoon.maze.GasTycoonMaze.Show;
+import com.github.verhagen.gastyoon.engine.GasTycoonMaze.Show;
 
 public class GasTycoonMazeTest {
 	private Logger logger = LoggerFactory.getLogger(GasTycoonMazeTest.class);

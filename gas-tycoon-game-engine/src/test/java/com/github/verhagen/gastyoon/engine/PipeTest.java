@@ -1,4 +1,4 @@
-package com.github.dojogreenfoot.gastyoon.maze;
+package com.github.verhagen.gastyoon.engine;
 
 import static org.junit.jupiter.api.Assertions.*;
 
