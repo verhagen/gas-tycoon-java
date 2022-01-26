@@ -8,4 +8,4 @@
  */
 
 rootProject.name = "gas-tycoon-java"
-include("gas-tycoon-game-engine")
+include("gas-tycoon-game-engine", "gas-tycoon-vertx-web-api")
