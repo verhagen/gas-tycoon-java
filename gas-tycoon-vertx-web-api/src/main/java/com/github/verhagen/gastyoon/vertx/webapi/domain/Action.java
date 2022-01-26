@@ -1,10 +1,15 @@
-package com.github.dojogreenfoot.gastyoon.vertx.webapi.domain;
+package com.github.verhagen.gastyoon.vertx.webapi.domain;
 
 import java.time.LocalDateTime;
 
 public class Action {
 	enum ActionType {
-		ROTATE_LEFT
+		// Game actions
+		START
+		, STOP
+		, FINISH
+		// Tile / Pipe actions
+		, ROTATE_LEFT
 		, ROTATE_RIGHT
 	}
 

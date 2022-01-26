@@ -1,4 +1,4 @@
-package com.github.dojogreenfoot.gastyoon.vertx.webapi.domain;
+package com.github.verhagen.gastyoon.vertx.webapi.domain;
 
 import java.util.List;
 import java.util.UUID;

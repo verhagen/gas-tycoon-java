@@ -1,0 +1,79 @@
+= Idea - Vert.x Web API
+
+
+The following Web API layout
+----
+/gas-tycoon/level/<id>
+
+           /game/<id>
+
+           /player/<id>
+----
+
+----
+/gas-tycoon/level/      | GET    | Get all levels
+                 /      | POST   | Create new level
+                 /<id>  | GET    | Get specific level
+                 /<id>  | PUT    | Update specific level
+                 /<id>  | DELETE | Remove specific level
+----
+
+----
+/gas-tycoon/game/      | GET    | Get all games, filter by player-id
+                /      | POST   | Create new game for user
+                /<id>  | GET    | Get specific game
+                /<id>  | DELETE | Remove specific game
+----
+
+----
+/gas-tycoon/player/      | GET    | Get all players filter by name or email-address
+                  /      | POST   | Create new player
+                  /<id>  | GET    | Get specific player
+                  /<id>  | PUT    | Update specific player
+                  /<id>  | DELETE | Remove specific player
+----
+
+
+Content of a `Level.json` instance:
+----
+{
+  id:
+  title:
+  author:
+  maze:
+  action-log-maze-solution
+  action-log-game-start
+  previous-level-id:
+}
+----
+
+Content of a `Game.json` instance:
+----
+{
+  id
+  level-id
+  player-id
+  action-log      // Once the gam is running, all user actions will end up here.
+  status          // Status of this game: [Running, On Hold, Finished]
+}
+----
+
+Content of a `Player.json` instance:
+----
+{
+  id
+  name
+  emailAddress
+  passwordHash
+}
+----
+
+Content of a `Action.json` instance:
+----
+{
+  timestamp
+  x
+  y
+  action-type
+}
+----

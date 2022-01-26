@@ -11,7 +11,8 @@ A clone of the iPhone / iPad  App https://itunes.apple.com/us/app/gas-tycoon-2/i
 == Action List
 
 - [ ] Implement GUI
-- [x] Implement game engine
+- [ ] Implement Vert.x Web API
+- [x] Implement Game Engine
 
 == Ideas
 

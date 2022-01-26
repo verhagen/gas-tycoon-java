@@ -1,4 +1,4 @@
-package com.github.dojogreenfoot.gastyoon.vertx.webapi.domain;
+package com.github.verhagen.gastyoon.vertx.webapi.domain;
 
 /**
  * This interface is for the injection of a <i>Domain Objects</i> into a <i>Data Transfer Object</i>.

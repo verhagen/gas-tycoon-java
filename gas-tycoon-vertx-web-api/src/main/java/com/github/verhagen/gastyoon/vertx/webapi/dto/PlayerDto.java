@@ -1,9 +1,9 @@
-package com.github.dojogreenfoot.gastyoon.vertx.webapi.dto;
+package com.github.verhagen.gastyoon.vertx.webapi.dto;
 
 import java.util.UUID;
 
-import com.github.dojogreenfoot.gastyoon.vertx.webapi.domain.ContextMigration;
-import com.github.dojogreenfoot.gastyoon.vertx.webapi.domain.Player;
+import com.github.verhagen.gastyoon.vertx.webapi.domain.ContextMigration;
+import com.github.verhagen.gastyoon.vertx.webapi.domain.Player;
 
 public class PlayerDto implements ContextMigration<Player> {
 	private UUID id;
